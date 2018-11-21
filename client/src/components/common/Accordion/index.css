@@ -1,0 +1,30 @@
+.accordion {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  .accordion .row {
+    padding: 50px 0px; }
+  .accordion .carrot {
+    border-radius: 100%;
+    font-size: 30px;
+    margin: 0 auto; }
+  .accordion .partner-col {
+    flex-direction: column;
+    margin: 15px; }
+    .accordion .partner-col img {
+      margin-bottom: 25px; }
+  .accordion .partner-name {
+    text-transform: capitalize;
+    font-weight: bold; }
+
+.partner-bucket {
+  display: block;
+  margin: 25px;
+  text-align: center;
+  position: relative;
+  cursor: pointer; }
+  .partner-bucket:last-child .accordion {
+    border: 0; }
+  .partner-bucket span {
+    font-family: "work_sanssemibold";
+    text-transform: capitalize; }
