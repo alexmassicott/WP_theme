@@ -62,7 +62,7 @@ typings/
 .env
 
 # docker-compose
-api/docker-compose.yml
+# api/docker-compose.yml
 
 # wp-config
 api/wp-config.php
